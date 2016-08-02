@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0834F83C95E30DFF65620302 /* Pods_THW_iPadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4E05498F9C9B1581072652 /* Pods_THW_iPadUITests.framework */; };
 		0D2D838F1D50FB4300A7901C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D838E1D50FB4300A7901C /* AppDelegate.swift */; };
 		0D2D83911D50FB4300A7901C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D83901D50FB4300A7901C /* ViewController.swift */; };
 		0D2D83941D50FB4300A7901C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2D83921D50FB4300A7901C /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		0D2D83991D50FB4300A7901C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2D83971D50FB4300A7901C /* LaunchScreen.storyboard */; };
 		0D2D83A41D50FB4300A7901C /* THW_iPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D83A31D50FB4300A7901C /* THW_iPadTests.swift */; };
 		0D2D83AF1D50FB4300A7901C /* THW_iPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D83AE1D50FB4300A7901C /* THW_iPadUITests.swift */; };
+		58388BACF9492F632FA971D9 /* Pods_THW_iPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C43DA4925C05A7A1BAB3A2 /* Pods_THW_iPad.framework */; };
+		E6BE30570D92BCEF763440BB /* Pods_THW_iPadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50460E7559038A9DBB482F8B /* Pods_THW_iPadTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		0D2D83AA1D50FB4300A7901C /* THW iPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "THW iPadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2D83AE1D50FB4300A7901C /* THW_iPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THW_iPadUITests.swift; sourceTree = "<group>"; };
 		0D2D83B01D50FB4300A7901C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E4E05498F9C9B1581072652 /* Pods_THW_iPadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THW_iPadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C43DA4925C05A7A1BAB3A2 /* Pods_THW_iPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THW_iPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50460E7559038A9DBB482F8B /* Pods_THW_iPadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THW_iPadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BAC1B2B37A53FA4D1E38B38 /* Pods-THW iPadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THW iPadTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-THW iPadTests/Pods-THW iPadTests.release.xcconfig"; sourceTree = "<group>"; };
+		81B07BCB8016459F88019537 /* Pods-THW iPadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THW iPadUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-THW iPadUITests/Pods-THW iPadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9583F0A33BB58AD4CB801CE0 /* Pods-THW iPadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THW iPadUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THW iPadUITests/Pods-THW iPadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C10286598793D78D55B6C0B4 /* Pods-THW iPadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THW iPadTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THW iPadTests/Pods-THW iPadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAB42A26CD369556E57415EE /* Pods-THW iPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THW iPad.release.xcconfig"; path = "Pods/Target Support Files/Pods-THW iPad/Pods-THW iPad.release.xcconfig"; sourceTree = "<group>"; };
+		E0ACF6AE35C9C241A94C9D9A /* Pods-THW iPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THW iPad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-THW iPad/Pods-THW iPad.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58388BACF9492F632FA971D9 /* Pods_THW_iPad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6BE30570D92BCEF763440BB /* Pods_THW_iPadTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0834F83C95E30DFF65620302 /* Pods_THW_iPadUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				0D2D83A21D50FB4300A7901C /* THW iPadTests */,
 				0D2D83AD1D50FB4300A7901C /* THW iPadUITests */,
 				0D2D838C1D50FB4300A7901C /* Products */,
+				A181EAF80844E68FA20CFAE3 /* Pods */,
+				83304C658FBAA33D5B93E105 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = "THW iPadUITests";
 			sourceTree = "<group>";
 		};
+		83304C658FBAA33D5B93E105 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17C43DA4925C05A7A1BAB3A2 /* Pods_THW_iPad.framework */,
+				50460E7559038A9DBB482F8B /* Pods_THW_iPadTests.framework */,
+				0E4E05498F9C9B1581072652 /* Pods_THW_iPadUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A181EAF80844E68FA20CFAE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0ACF6AE35C9C241A94C9D9A /* Pods-THW iPad.debug.xcconfig */,
+				CAB42A26CD369556E57415EE /* Pods-THW iPad.release.xcconfig */,
+				C10286598793D78D55B6C0B4 /* Pods-THW iPadTests.debug.xcconfig */,
+				5BAC1B2B37A53FA4D1E38B38 /* Pods-THW iPadTests.release.xcconfig */,
+				9583F0A33BB58AD4CB801CE0 /* Pods-THW iPadUITests.debug.xcconfig */,
+				81B07BCB8016459F88019537 /* Pods-THW iPadUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D2D83B31D50FB4300A7901C /* Build configuration list for PBXNativeTarget "THW iPad" */;
 			buildPhases = (
+				38A6A4417637B88AD93C707A /* [CP] Check Pods Manifest.lock */,
 				0D2D83871D50FB4300A7901C /* Sources */,
 				0D2D83881D50FB4300A7901C /* Frameworks */,
 				0D2D83891D50FB4300A7901C /* Resources */,
+				4C98E02288D6E79ED60BB944 /* [CP] Embed Pods Frameworks */,
+				4E2B29F2D43B489A028C0879 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D2D83B61D50FB4300A7901C /* Build configuration list for PBXNativeTarget "THW iPadTests" */;
 			buildPhases = (
+				A335E70AE484BA7B1FA131CC /* [CP] Check Pods Manifest.lock */,
 				0D2D839B1D50FB4300A7901C /* Sources */,
 				0D2D839C1D50FB4300A7901C /* Frameworks */,
 				0D2D839D1D50FB4300A7901C /* Resources */,
+				E19C09CF82F8C7C6CF5B62E4 /* [CP] Embed Pods Frameworks */,
+				AC6F8BC45630456EBE29DACC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D2D83B91D50FB4300A7901C /* Build configuration list for PBXNativeTarget "THW iPadUITests" */;
 			buildPhases = (
+				BEEB6A6E45BD4264FD58EFBA /* [CP] Check Pods Manifest.lock */,
 				0D2D83A61D50FB4300A7901C /* Sources */,
 				0D2D83A71D50FB4300A7901C /* Frameworks */,
 				0D2D83A81D50FB4300A7901C /* Resources */,
+				6603608B37E43D07BC6CC05F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +298,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38A6A4417637B88AD93C707A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C98E02288D6E79ED60BB944 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THW iPad/Pods-THW iPad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E2B29F2D43B489A028C0879 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THW iPad/Pods-THW iPad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6603608B37E43D07BC6CC05F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THW iPadUITests/Pods-THW iPadUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A335E70AE484BA7B1FA131CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC6F8BC45630456EBE29DACC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THW iPadTests/Pods-THW iPadTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEEB6A6E45BD4264FD58EFBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E19C09CF82F8C7C6CF5B62E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-THW iPadTests/Pods-THW iPadTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0D2D83871D50FB4300A7901C /* Sources */ = {
@@ -399,6 +570,7 @@
 		};
 		0D2D83B41D50FB4300A7901C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0ACF6AE35C9C241A94C9D9A /* Pods-THW iPad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "THW iPad/Info.plist";
@@ -410,6 +582,7 @@
 		};
 		0D2D83B51D50FB4300A7901C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB42A26CD369556E57415EE /* Pods-THW iPad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "THW iPad/Info.plist";
@@ -421,6 +594,7 @@
 		};
 		0D2D83B71D50FB4300A7901C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C10286598793D78D55B6C0B4 /* Pods-THW iPadTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "THW iPadTests/Info.plist";
@@ -433,6 +607,7 @@
 		};
 		0D2D83B81D50FB4300A7901C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BAC1B2B37A53FA4D1E38B38 /* Pods-THW iPadTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "THW iPadTests/Info.plist";
@@ -445,6 +620,7 @@
 		};
 		0D2D83BA1D50FB4300A7901C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9583F0A33BB58AD4CB801CE0 /* Pods-THW iPadUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "THW iPadUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +632,7 @@
 		};
 		0D2D83BB1D50FB4300A7901C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B07BCB8016459F88019537 /* Pods-THW iPadUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "THW iPadUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +661,7 @@
 				0D2D83B51D50FB4300A7901C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D2D83B61D50FB4300A7901C /* Build configuration list for PBXNativeTarget "THW iPadTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +670,7 @@
 				0D2D83B81D50FB4300A7901C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D2D83B91D50FB4300A7901C /* Build configuration list for PBXNativeTarget "THW iPadUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +679,7 @@
 				0D2D83BB1D50FB4300A7901C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
